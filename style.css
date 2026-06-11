@@ -1,0 +1,164 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1b4d3e; /* Verde escuro conectado à natureza */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #88d49e; /* Verde claro para destaque */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #88d49e;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b5e20;
+}
+
+/* Seções */
+.section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    color: #1b4d3e;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    font-size: 17px;
+}
+
+.bg-light {
+    background-color: #e8f5e9;
+}
+
+/* Componente de Quiz */
+.quiz-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+}
+
+#pergunta {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quiz-btn {
+    background-color: #f1f8e9;
+    border: 2px solid #c8e6c9;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.quiz-btn:hover {
+    background-color: #a5d6a7;
+    border-color: #81c784;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1b4d3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

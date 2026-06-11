@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Sustentabilidade e Inovação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho <span>2026</span></div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#interagir">Participe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Alimentando o Futuro com Conhecimento</h1>
+            <p>Descubra como a tecnologia e a sustentabilidade transformam o campo e a educação.</p>
+            <a href="#interagir" class="btn">Saber Mais</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>O Programa Agrinho</h2>
+        <p>O Agrinho é o maior programa de responsabilidade social do Sistema FAEP/SENAR-PR. Há anos ele incentiva a pesquisa, a criatividade e a inovação nas escolas, unindo o campo e a cidade em busca de um futuro mais sustentável.</p>
+    </section>
+
+    <section id="interagir" class="section bg-light">
+        <h2>Quiz Rápido: Sustentabilidade</h2>
+        <p>Você sabe qual é o papel do agro sustentável? Teste seus conhecimentos!</p>
+        
+        <div class="quiz-container">
+            <p id="pergunta">Qual dessas práticas ajuda a preservar o solo na agricultura?</p>
+            <div class="quiz-options">
+                <button class="quiz-btn" onclick="verificarResposta(false)">Uso excessivo de defensivos</button>
+                <button class="quiz-btn" onclick="verificarResposta(true)">Rotação de culturas</button>
+                <button class="quiz-btn" onclick="verificarResposta(false)">Desmatamento das margens de rios</button>
+            </div>
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho Escolar. Inspirando as próximas gerações.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
